@@ -1,0 +1,135 @@
+
+import java.util.Scanner;
+
+
+public class Exercices {
+	
+
+	public static void main(String[] args) {
+		
+		Exercice 1 : Les Variables et les Opérateurs
+		Énoncé : Déclarez deux variables entières, a et b. 
+		Assignez-leur des valeurs et 
+		affichez leur somme, différence, produit, et quotient.
+
+	
+	   Exercice 2 : Lire les Entrées Clavier
+	   Énoncé : Écrivez un programme qui demande à l'utilisateur son nom et 
+	   son âge, puis affiche un message de bienvenue incluant ces informations.
+
+	
+		
+	  Exercice 3 : Les Conditions
+	  Énoncé : Écrivez un programme qui demande un nombre entier 
+	  à l'utilisateur et vérifie s'il est pair ou impair.
+	
+	
+	
+	   Exercice 4 : Les Boucles (For)
+	   Écrivez un programme qui affiche les nombres de 1 à 10 en utilisant une boucle for.
+
+
+		Exercice 5 : Les Boucles (While)
+		Énoncé : Écrivez un programme qui affiche les nombres de 1 à 10 en utilisant une boucle while.	
+
+
+		Exercice 6 : Les Méthodes (Sans retour)
+		Énoncé : Créez une méthode afficherMessage qui affiche un message de bienvenue. 
+		Appelez cette méthode dans le programme principal.
+
+
+		Exercice 7 : Les Méthodes (Avec retour)
+		Énoncé : Créez une méthode addition qui prend deux entiers en paramètres et 
+		retourne leur somme. Utilisez cette méthode dans le programme principal.
+
+
+		Exercice 8 : Les Tableaux (Initialisation)
+		Énoncé : Déclarez un tableau de 5 entiers. Assignez une valeur à chaque élément du 
+		tableau et affichez-les.	
+
+
+		
+	  	Exercice 9 : Les Tableaux (Somme des éléments)
+		Énoncé : Écrivez un programme qui calcule et affiche la somme des éléments d'un tableau d'entiers.
+
+
+		Exercice 10 : Les Boucles et Tableaux (Recherche d'un élément)
+				Énoncé : Écrivez un programme qui demande un nombre à l'utilisateur et 
+				vérifie si ce nombre est présent dans un tableau prédéfini.
+
+		
+		
+		Exercice 11 : Tri d'un Tableau
+		Énoncé : Écrivez un programme qui trie un tableau d'entiers en utilisant 
+		l'algorithme de tri par sélection (Selection Sort).
+			
+		
+	
+		Exercice 12 : Calcul de la Moyenne et des Notes
+		Énoncé : Écrivez un programme qui demande à l'utilisateur de saisir
+		 les notes de plusieurs étudiants (le nombre d'étudiants est donné par 
+		 l'utilisateur) et calcule la moyenne des notes, la note maximale et la note minimale.
+		
+
+		
+		Exercice 13 : Jeu de Deviner un Nombre
+		Énoncé : Créez un jeu où l'utilisateur doit deviner un nombre choisi 
+		aléatoirement par le programme entre 1 et 100. Le programme doit 
+		indiquer si le nombre deviné est trop grand ou trop petit jusqu'à ce 
+		que l'utilisateur trouve la bonne réponse.
+		
+
+		
+//		Exercice 14 : Palindrome
+//		Énoncé : Écrivez un programme qui demande à l'utilisateur d'entrer une chaîne 
+//		de caractères et vérifie si cette chaîne
+//		est un palindrome (se lit de la même manière à l'envers qu'à l'endroit).
+		
+
+		
+		
+//		Exercice 15 : Calculatrice interactive
+//		Énoncé : Implémentez une calculatrice interactive en Java qui lit deux nombres et un opérateur (+, -, *, /)
+		depuis le clavier. Gèrez les erreurs avec des exceptions (ex. division par zéro, opérateur invalide).. 
+		Utilisez des méthodes pour chaque opération et affichez le résultat.	
+		
+
+//		Exercice 16 : Validation de mot de passe
+	    Écrivez un programme qui demande à l'utilisateur de saisir un mot de passe. 
+	    Vérifiez que le mot de passe respecte ces règles : 
+	    Au moins 8 caractères, un chiffre, une lettre majuscule. 
+	    Utilisez des boucles, des conditions et des exceptions.
+
+//		Exercice 17 : Générateur de mot de passe aléatoire
+		Implémentez une méthode pour générer un mot de passe aléatoire contenant des lettres, 
+		chiffres, et caractères spéciaux. Demandez la longueur au clavier.
+	    
+//		Exercice 18 : Analyse de texte   
+	    
+	    Demandez à l'utilisateur de saisir un texte et affichez :
+		Le nombre de voyelles
+		Le nombre de consonnes
+		Le nombre de mots
+		
+//		Exercice 19 : Multiplication de matrices  		
+	    
+	    Implémentez la multiplication de deux matrices carrées de dimension 3x3. 
+	    Remplissez les matrices avec des données saisies.
+	    
+
+//		Exercice 20 : Sudoku Checker  	    
+	    
+	    Écrivez un programme qui vérifie si une grille 9x9 saisie par l'utilisateur respecte 
+	    les règles d'un Sudoku (chaque ligne, colonne, et carré 3x3 contient 
+	    des chiffres de 1 à 9 sans répétition).
+	    
+	    
+//		Exercice 21 : Calcul des nombres de Fibonacci
+		Écrivez une méthode récursive pour générer les n premiers termes de la suite de Fibonacci. 
+		Demandez à l'utilisateur combien de termes afficher.  	  	    
+	    
+	    
+//		Exercice 22 : Jeu de pierre-feuille-ciseaux	    
+	    Implémentez un jeu où l'utilisateur joue contre l'ordinateur. L'ordinateur choisit au hasard entre "pierre", "feuille", "ciseaux". 
+	    Gèrez les scores et les erreurs d'entrée.
+	    
